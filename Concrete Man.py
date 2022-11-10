@@ -94,7 +94,7 @@ def game():
         theMap()
         # print(first_poleXY)
 
-        num_of_formworks = 1
+        num_of_formworks = 40
         formworkX = []
         formworkY = []
 
