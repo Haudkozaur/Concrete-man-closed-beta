@@ -296,7 +296,7 @@ def game():
                         if event.key == pygame.K_UP or event.key == pygame.K_w:
                             playerY_change = -basic_player_velocity/2
                         if event.key == pygame.K_DOWN or event.key == pygame.K_s:
-                            playerY_change = basic_player_velocity
+                            playerY_change = basic_player_velocity/2
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE and rebar_state == "delivered":
                     if hitbox_rebar_delivered:
                         rebar_state = "picked"
